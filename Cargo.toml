@@ -1,0 +1,11 @@
+[package]
+name = "regev-pqc"
+version = "0.1.0"
+edition = "2021"
+description = "An implementation of Regev's Lattice-Based Encryption scheme"
+keywords = ["cryptography", "lattice", "PQC", "encryption"]
+authors = ["tony riemer <driemworks@idealabs.network>"]
+
+[dependencies]
+rand = "0.8.5"
+nalgebra = "0.32.3"
